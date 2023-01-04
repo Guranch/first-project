@@ -1,0 +1,285 @@
+:root {
+  --accent-color: #34547a;
+  --text-color: #727272;
+  --second-bg: #eeeff1;
+}
+
+/* reset */
+
+h1,h2,h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.63;
+  color: var(--text-color);
+}
+
+/* header */
+header {
+  padding: 57px 0;
+}
+.logo {
+  font-family: "Revalia", cursive;
+  font-size: 48px;
+  line-height: 1.25;
+  color: var(--accent-color);
+  margin-right: 398px;
+  font-family: "Revalia", cursive;
+}
+
+
+/* nav */
+
+.nav-menu .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.nav-menu > .list {
+  align-items: center;
+}
+.nav-menu  .item:not(:last-child) {
+  margin-right: 42px;
+}
+.link.active {
+  color: var(--accent-color);
+}
+/* main */
+
+/* hero */
+
+.hero {
+  background-color: var(--second-bg);
+}
+.pack{
+  align-content: center;
+  padding-top: 162px;
+  padding-bottom: 146px;
+}
+.content{
+  margin-left: 130px;
+}
+
+/* title */
+
+.title {
+  color: #000000;
+}
+
+.hero .title {
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.65;
+}
+
+/* text */
+
+.hero .text{
+  margin-bottom: 60px;
+  max-width: 540px;
+}
+
+/* button */
+
+.button {
+  padding: 25px 41px;
+  border: none;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* about myself */
+
+.about{
+  padding-top: 119px;
+  padding-bottom: 100px;
+}
+
+.text-container{
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about  .title {
+  margin-bottom: 50px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1875;
+  text-align: center;
+}
+.about  p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/*  40 projects */
+
+.fortypro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 405px;
+  padding-right: 424px;
+}
+.projects > .item {
+  display: inline-block;
+  color: #ffffff;
+}
+.projects > .item > p {
+  margin-left: 20px;
+}
+.projects  .item:not(:last-child) {
+  margin-right: 42px;
+}
+
+.projects .headline{
+  font-weight: 500;
+  font-size: 21px;
+}
+/*skills*/
+.skills {
+  padding-top: 102px;
+  padding-bottom: 101px;
+}
+.pack-skills{
+  max-width: 1150px;
+}
+.content-skills{
+  margin-right: 150px;
+}
+.H{
+  margin-bottom: 50px;
+  margin-top: 102px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+}
+/* pictures */
+
+.pictures img{
+  display: block;
+}
+/*work*/
+.box{
+  max-width: 540px;
+  margin-bottom: 57px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work{
+  margin-top: 100px;
+  background-color: var(--second-bg);
+}
+.head{
+  margin-bottom: 50px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+}
+.video{
+  margin-bottom: 100px;
+  margin-left: 405px;
+  margin-right: 405px;
+}
+/*microsoft*/
+.windows> .item{
+  list-style: none;
+}
+.block{
+  display: block;
+}
+.microsoft .item:not(:last-child){
+  margin-right: 30px;
+}
+.microsoft{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 405px;
+  padding-right: 405px;
+}
+/*contacts*/
+.contacts{
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: var(--second-bg);
+}
+.height{
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+}
+.dream{
+  max-width: 540px;
+  margin-bottom: 65px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.send{
+  margin-top: 70px;
+  color: #ffffff;
+  background-color: #34547a;
+  max-width: 190px;
+  margin-left: 885px;
+  margin-right: 885px;
+  padding: 20px;
+}
+/*footer*/
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.name{
+  background-color: #34547a;
+}
+.vk{
+  display: inline-block;
+  font-weight: 44px;
+}
+.f{
+  margin-top: 20px;
+}
+.f,.a{
+  color: #ffffff;
+  margin-left: auto;
+}
+.a{
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
